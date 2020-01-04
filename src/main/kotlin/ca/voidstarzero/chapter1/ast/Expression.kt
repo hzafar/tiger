@@ -1,6 +1,6 @@
 package ca.voidstarzero.chapter1.ast
 
-sealed class Expression()
+sealed class Expression
 
 class IdExp(val id: String) : Expression()
 class NumExp(val num: Int) : Expression()
